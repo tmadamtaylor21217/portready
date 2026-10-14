@@ -1,0 +1,12 @@
+{
+  "name": "portready",
+  "version": "0.1.0",
+  "description": "Zero-dependency CLI that waits until TCP ports accept connections — for CI scripts that need a database or service to be up before proceeding.",
+  "type": "module",
+  "bin": { "portready": "bin/portready.mjs" },
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node test/basic.mjs" },
+  "files": ["bin", "README.md", "LICENSE"],
+  "license": "MIT",
+  "keywords": ["tcp", "port", "wait", "ci", "docker-compose", "zero-dependency"]
+}
